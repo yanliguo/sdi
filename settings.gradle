@@ -1,3 +1,4 @@
 include 'sdi-common'
 include 'sdi-core'
 include 'sdi-bean'
+include 'sdi-servlet'
