@@ -5,21 +5,3 @@ jar {
     }
 }
 
-# repositories {
-#    maven {
-#        url "http://maven.petrikainulainen.net/repo"
-#    }
-# }
-
-# dependency 1
-# dependencies {
-#     compile (
-#         [group: 'foo', name: 'foo', version: '0.1'],
-#         [group: 'bar', name: 'bar', version: '0.1']
-#     )
-# }
-
-# dependency 2
-# dependencies {
-#     compile 'foo:foo:0.1', 'bar:bar:0.1'
-# }
