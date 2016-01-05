@@ -1,0 +1,3 @@
+include 'sdi-common'
+include 'sdi-core'
+include 'sdi-bean'

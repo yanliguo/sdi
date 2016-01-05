@@ -1,0 +1,52 @@
+{
+  "beans": [
+    {
+      "id": "hiveConnector",
+      "class": "org.sdi.example.clazz.HiveConnector",
+      "properties": [
+        {
+          "name": "hosts",
+          "value": "dx.hive01"
+        },
+        {
+          "name": "maxConnector",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "id": "hbaseConnector",
+      "class": "org.sdi.example.clazz.HBaseConnector",
+      "properties": [
+        {
+          "name": "hosts",
+          "value": "dx.hbase01"
+        },
+        {
+          "name": "maxWaitingTime",
+          "value": "2000"
+        }
+      ]
+    },
+    {
+      "id": "hiveDao",
+      "class": "org.sdi.example.clazz.AbstractCoupledDao",
+      "properties": [
+        {
+          "name": "connector",
+          "ref": "hiveConnector"
+        }
+      ]
+    },
+    {
+      "id": "hbaseDao",
+      "class": "org.sdi.example.clazz.AbstractCoupledDao",
+      "properties": [
+        {
+          "name": "connector",
+          "ref": "hbaseConnector"
+        }
+      ]
+    }
+  ]
+}
