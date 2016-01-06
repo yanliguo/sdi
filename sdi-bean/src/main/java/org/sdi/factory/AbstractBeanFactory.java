@@ -1,7 +1,7 @@
 package org.sdi.factory;
 
 import org.sdi.common.ObjectWrapper;
-import org.sdi.common.PropertyInject;
+import org.sdi.core.factory.PropertyInject;
 import org.sdi.core.Autoware;
 import org.sdi.core.BeanDefinition;
 import org.sdi.core.Property;

@@ -1,7 +1,7 @@
-package org.sdi.common;
+package org.sdi.core.factory;
 
 import org.apache.commons.lang3.StringUtils;
-import org.di.core.Property;
+import org.sdi.core.Property;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

@@ -1,11 +1,11 @@
-package org.di.test;
+package org.sdi.example.main;
 
-import org.di.factory.BeanFactory;
-import org.di.factory.JsonResourceBeanFactory;
-import org.di.test.clazz.AbstractCoupledDao;
-import org.di.test.clazz.HiveCoupledDao;
-import org.di.test.clazz.IConnector;
-import org.di.test.clazz.IDao;
+import org.sdi.factory.BeanFactory;
+import org.sdi.factory.JsonResourceBeanFactory;
+import org.sdi.example.clazz.AbstractCoupledDao;
+import org.sdi.example.clazz.HiveCoupledDao;
+import org.sdi.example.clazz.IConnector;
+import org.sdi.example.clazz.IDao;
 
 /**
  * @author guoyanli

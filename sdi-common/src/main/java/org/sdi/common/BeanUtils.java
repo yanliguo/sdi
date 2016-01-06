@@ -1,9 +1,9 @@
 package org.sdi.common;
 
-import org.sdi.core.BeanDefinition;
+/*import org.sdi.core.BeanDefinition;
 import org.sdi.core.ConstructedBean;
 import org.sdi.core.FactoryBean;
-import org.sdi.except.NotSupportedBeanException;
+import org.sdi.except.NotSupportedBeanException;*/
 
 /**
  * Created by guoyanli on 12/29/15.
@@ -15,7 +15,7 @@ public class BeanUtils {
      * @param beanDefinition
      * @return
      */
-    public static Object getBean(BeanDefinition beanDefinition) {
+    /*public static Object getBean(BeanDefinition beanDefinition) {
         if (beanDefinition instanceof FactoryBean) {
             return getFactoryBean((FactoryBean)beanDefinition);
         } else if (beanDefinition instanceof ConstructedBean) {
@@ -31,5 +31,5 @@ public class BeanUtils {
 
     private static Object getConstructedBean(ConstructedBean bean) {
         return null;
-    }
+    }*/
 }

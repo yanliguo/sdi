@@ -1,6 +1,8 @@
 apply plugin: 'java'
 
-jar {
-    manifest {
-    }
+project.group = 'org.sdi'
+project.version = '0.1'
+
+repositories {
+    mavenCentral()
 }

@@ -7,7 +7,7 @@ import org.sdi.core.BeanDefinition;
 import org.sdi.core.ConstructedBean;
 import org.sdi.core.FactoryBean;
 import org.sdi.core.Property;
-import org.sdi.factory.JsonPropertyFactory;
+import org.sdi.core.factory.JsonPropertyFactory;
 
 import java.util.ArrayList;
 import java.util.List;

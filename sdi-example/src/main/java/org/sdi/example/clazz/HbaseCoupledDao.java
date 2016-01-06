@@ -1,4 +1,4 @@
-package org.di.test.clazz;
+package org.sdi.example.clazz;
 
 /**
  * Created by guoyanli on 12/30/15.

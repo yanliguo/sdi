@@ -1,4 +1,4 @@
-package org.di.except;
+package org.sdi.except;
 
 /**
  * Created by guoyanli on 12/29/15.

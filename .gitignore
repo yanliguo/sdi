@@ -1,6 +1,7 @@
 # IDEs
 .idea/
 *.iml
+.gradle/
 
 # Text editors
 *.swap
@@ -12,6 +13,7 @@
 # Compiled files
 *.class
 target/
+build/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

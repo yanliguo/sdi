@@ -1,7 +1,5 @@
 package org.sdi.factory;
 
-import com.sun.istack.internal.Nullable;
-
 import org.sdi.common.IO;
 
 import java.util.Map;
@@ -24,9 +22,8 @@ public class JsonResourceBeanFactory extends AbstractJsonBeanFactory {
      * @param resourceFileName
      * @return
      * @throws Exception
-     * @see Nullable
      */
-    @Nullable public static JsonResourceBeanFactory getFactory(String resourceFileName) throws Exception {
+    public static JsonResourceBeanFactory getFactory(String resourceFileName) throws Exception {
         if (resourceFileName == null) {
             return null;
         }

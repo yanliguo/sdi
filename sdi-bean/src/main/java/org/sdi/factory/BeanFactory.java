@@ -1,6 +1,6 @@
 package org.sdi.factory;
 
-import org.sdi.common.except.BeanException;
+import org.sdi.except.BeanException;
 
 import java.util.List;
 

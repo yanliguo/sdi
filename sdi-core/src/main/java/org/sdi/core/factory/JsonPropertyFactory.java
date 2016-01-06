@@ -1,4 +1,4 @@
-package org.sdi.factory;
+package org.sdi.core.factory;
 
 import com.google.gson.JsonObject;
 
