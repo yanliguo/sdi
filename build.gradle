@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+project.group = 'org.sdi'
+project.version = '0.1'
+
+repositories {
+    mavenCentral()
+}

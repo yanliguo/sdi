@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+project.version=parent.version
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile project(':sdi-common')
+}
+

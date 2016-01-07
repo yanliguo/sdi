@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+/**
+ * $> gradle run
+ * command will run spring test
+ */
+mainClassName = 'org.sdi.example.main.SpringTest'
+
+project.version = parent.version
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":sdi-bean")
+}
+
